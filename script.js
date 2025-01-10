@@ -20,3 +20,4 @@ document.getElementById('slide').addEventListener('dblclick', () => {
     currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
     updateSlide();
 });
+
